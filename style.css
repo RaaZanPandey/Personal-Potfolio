@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+#main h2{
+    color: rgb(248, 0, 95);
+
+}
+
+#page1 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#page1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://scontent.fidr4-3.fna.fbcdn.net/v/t39.30808-6/416298687_1083779372939629_8010346965031236221_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=DF3MzYGi5S4Q7kNvgFdI7Dt&_nc_ht=scontent.fidr4-3.fna&oh=00_AYAJ9FvS_YRgbwLqwOXtHSaydS6bxGROBf553oxAJtxyRA&oe=66D4ADF1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(40%);
+    z-index: -1;
+}
+
+#heading{
+    height: 10%;
+    width: 15%;
+    color: aqua;
+    position: fixed;
+    border: 2px antiquewhite solid;
+    align-items: center;
+    display: flex;
+}
+
+#fakeheading{
+    height: 15%;
+    width: 100%;
+}
+
+#text {
+    height: 35%;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+#text p {
+    color: antiquewhite;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#text h4 {
+    color: aquamarine;
+    font-size: 90px;
+    font-weight: 900;
+    white-space: nowrap;
+}
+
+#box{
+    height: 6%;
+    width: 13%;
+    margin-left: 43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    border: 2px aqua solid;
+}
+
+#box:hover{
+    color: aquamarine;
+    border: 2px aqua solid;
+}
+
+#icon{
+    height: 24%;
+    width: 30%;
+    margin-top: 100px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    margin-left: 33%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#icon a{
+color: aqua;
+    margin-left: 50px;
+}
+
+#icon a:hover{
+    color: antiquewhite;
+}
+
+#page2 {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#title{
+    height: 15%;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 30px;
+    color:  rgb(255, 0, 106);
+}
+
+#boxs{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+#boxs h2{
+    font-size: 27px;
+    margin-bottom: 2%;
+    font-weight: 100;
+    color: rgb(248, 0, 95);
+} 
+
+#boxs p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+#profil{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 30%;
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+#profil img{
+    height: 15%;
+    width: 20%;
+    border-radius: 50%;
+    object-fit: cover;
+    color: black;
+}
+
+
+.box{
+    height: 10%;
+    width: 100%;
+    /* border: 2px blue solid; */
+    margin-top: 15px;
+    font-size: 5px;
+}
+
+
+
+#skills{
+    height: 100%;
+    width: 30%;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+#skills img{
+    height: 15%;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.Skills{
+    height: 77%;
+    margin-top: 20px;
+}
+
+.Skill-name{
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.Skill-bar{
+    height: 3%;
+    width: 100%;
+    background-color: wheat;
+    border-radius: 10px;
+}
+
+.Skill-progress{
+    height: 100%;
+    
+
+}
+
+.HTML{
+   background-color:  rgb(0, 245, 53);
+   border-radius: 10px;
+}
+
+ .js{
+    background-color:  rgb(22, 0, 223);
+    border-radius: 5px;
+ }
+
+ .Cplus{
+    background-color:  rgb(255, 0, 255);
+    border-radius: 5px;
+ }
+
+ .C{
+    background-color:  rgb(255, 0, 106);
+    border-radius: 5px;
+ }
+ #language{
+    height: 60%;
+    width: 100%;
+    margin-top: 20px; font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    font-weight: 300;   
+ }
+
+ #page3{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ #Projects{
+    margin-top: 25px;
+    height: 55%;
+    width: 60%;
+    font-size: 20px;
+ }
+
+ .project{
+    height: 30%;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+ }
+
+ #Project h3{
+    margin-left: 3%;
+ }
+
+ #page4{
+    height: 100%;
+    width: 100%;
+ }
+
+ #hobbies{
+    margin-top: 25px;
+    height: 80%;
+    width: 100%;
+    font-size: 20px;
+
+ }
+
+ .hobbies{
+    height: 12%;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #f4f4f4;
+ }
+
+ #footer{
+    height: 10%;
+    width: 100%;
+    margin-top: 10%;
+    background-color: rgb(20, 19, 19);
+    color: rgb(240, 234, 234);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .footer{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+ }
+
+ .footer a{
+    margin: 0 30px;
+    font-size: 25px;
+    color: white;
+ }
+
